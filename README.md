@@ -49,7 +49,7 @@ class Timer extends Thread
     }
 }
 ```
-[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/master/src/main/java/question2)
+[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/tree/master/src/main/java/question2)
 #### Вопрос 3.
 ##### Как приостановить выполнение потока с возможностью продолжить исполнение по команде пользователя? 
 ```text
@@ -91,7 +91,7 @@ public class HelloWorldSwing extends JFrame {
     }
 }
 ```
-[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/master/src/main/java/question4/HelloWorldSwing.java)
+[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/blob/master/src/main/java/question4/HelloWorldSwing.java)
 
 #### Вопрос 5.
 ##### Приведите код создания сервера, ожидающего единственное подключение клиента на Java  
@@ -114,7 +114,7 @@ if(clientMsg.equals("Hello server, I`m user!")){
     client.close();
 }
 ```
-[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/master/src/main/java/clientserver)
+[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/tree/master/src/main/java/clientserver)
 #### Вопрос 6.
 ##### Приведите код подключения клиента к серверу и получение одной строки на Java  
 ```java
@@ -131,7 +131,7 @@ if(result.equals("We got your message bruda! Its ok!")){
     clientSocket.close();
 }
 ```
-[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/master/src/main/java/clientserver)
+[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/tree/master/src/main/java/clientserver)
 #### Вопрос 7.
 ##### Приведите код перевода объекта в формат JSon и получения объекта из JSon  
 ```java
@@ -149,7 +149,7 @@ JSONObject obj = new JSONObject(stringifiedJSON);
 JSONArray students_2 = obj.getJSONArray("students");
 printStudents(students_2);
 ```
-[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/master/src/main/java/question7/JSONExample.java)
+[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/blob/master/src/main/java/question7/JSONExample.java)
 #### Вопрос 8.
 ##### Приведите код получения подключения к базе данных с использованием JDBC
 ```java
@@ -161,7 +161,7 @@ private void initConnection(UserConfig user, DatabaseConfig db_cfg) throws Class
     }
 }
 ```  
-[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/master/src/main/java/question8/JDBC.java)
+[Полный код для этого вопроса тут](https://github.com/akozorez/java-network-apps-test/blob/master/src/main/java/question8/JDBC.java)
 ###### Дополнительные вопросы (необязательно)
 #### Вопрос 9.
 ##### О каких технологиях Java Вы бы хотели дополнительно услышать в курсе?
