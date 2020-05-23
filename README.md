@@ -70,7 +70,25 @@ public class HelloWorldSwing extends JFrame {
         createGUI();
     }
 
-    public void createGUI() {/**/}
+    public void createGUI() {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JPanel panel = new JPanel();
+        panel.setLayout(new FlowLayout());
+
+        JButton helloButton = new JButton("sayHello");
+        helloButton.setActionCommand("Hello world!");
+        panel.add(helloButton);
+
+        textField = new JTextField();
+        textField.setColumns(23);
+        panel.add(textField);
+
+        helloButton.addActionListener(new sayHello());
+
+        getContentPane().add(panel);
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        setPreferredSize(new Dimension(dim.width/2, dim.height/2));
+    }
 
     public class sayHello implements ActionListener {
         public void actionPerformed(ActionEvent e) {
